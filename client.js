@@ -26,7 +26,7 @@ searchInput.addEventListener('keypress', function(e) {
   }
 });
 
-const BASE_URL = "https://phungph-uscities-microservices.azurewebsites.net";
+const BASE_URL = "https://cincyamlina-uscities-mircroservices-bzhge2aefkhsfpdt.eastus-01.azurewebsites.net";
 async function search() {
     const query = searchInput.value.trim();
     if (!query || query.length === 0) return; // AC9: empty/whitespace-only queries never reach fetch()
@@ -100,9 +100,3 @@ function json2htmllist(data) {
     }).join('');
     return '<ul class="city-list">' + items + '</ul>';
 }
-/* Add to styles.css for the "fancy" card look:
-.city-list { list-style: none; padding: 0; }
-.city-card { background: #fff; border-left: 4px solid #4CAF50; border-radius: 6px;
-             padding: 8px 12px; margin: 6px 0; box-shadow: 0 1px 3px rgba(0,0,0,.15); }
-.zips { color: #777; font-size: 12px; }
-*/

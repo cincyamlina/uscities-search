@@ -1,0 +1,35 @@
+.button {
+    background-color: #4CAF50;/* Green*/
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px2px;
+    cursor: pointer;
+}
+
+.tiblock {
+    align-items: center;
+    display: flex;
+    height: 17px;
+}
+
+.ticontainer .tidot {
+        background-color: #90949c;
+}
+
+.tidot {
+    border-radius: 2px;
+    display: inline-block;
+    height: 4px;
+    margin-right: 2px;
+    width: 4px;
+}
+
+.city-list { list-style: none; padding: 0; }
+.city-card { background: #fff; border-left: 4px solid #4CAF50; border-radius: 6px;
+             padding: 8px 12px; margin: 6px 0; box-shadow: 0 1px 3px rgba(0,0,0,.15); }
+.zips { color: #777; font-size: 12px; }
